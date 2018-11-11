@@ -1,0 +1,488 @@
+<style type="text/css">
+body {
+    background-image:url(https://docs.google.com/drawings/d/e/2PACX-1vTac4pDtqs9GOm1ekOczPiLJiipwj-nVtttPj9ExiTGs6tIGXexoDtYNe_F2ppEz3aMRZ7Iy98v562w/pub?w=1766&h=1184);
+</style>
+<style>
+    @font-face {
+  font-family: 'Product Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans'), local('OpenSans'), url(https://fonts.gstatic.com/s/productsans/v5/HYvgU2fE2nRJvZ5JFAumwegdm0LZdjqr5-oayXSOefg.woff2) format('woff2');
+}
+
+
+
+body {
+	font-family: Product Sans;
+	padding: 1px;
+}
+    </style>
+<link rel="icon" href="https://docs.google.com/drawings/d/e/2PACX-1vRgtckbLK7Iopeqgc64ZzPuIEool_g_Ry7QjyhaGMays4-nA-SdzBSTqIuL18jQ8N_IHSsFQtVdWTo_/pub?w=470&h=631">
+<title>Dylan Search</title>
+<center>
+<div style="width:500px;height:270px;overflow:hidden;">
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTQqLJzlJU_r_ZEbKSGK3ChkQBaEVDdu489FtMLAUp5jeqkYIwNtZltOg-ytY7T5xPDbQlDaNDkKowN/embed?start=false&loop=false&delayms=3000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"><img src="file:///home/chronos/u-f3f02add2e619c4c078505048fefcdce0bbbc72c/Downloads/Dylan%20Search%20Alt.png"></iframe>
+            </div>
+<svg xmlns="http://www.w3.org/2000/svg" style="display:none">
+  <symbol xmlns="http://www.w3.org/2000/svg" id="sbx-icon-search-13" viewBox="0 0 40 40">
+    <path d="M26.804 29.01c-2.832 2.34-6.465 3.746-10.426 3.746C7.333 32.756 0 25.424 0 16.378 0 7.333 7.333 0 16.378 0c9.046 0 16.378 7.333 16.378 16.378 0 3.96-1.406 7.594-3.746 10.426l10.534 10.534c.607.607.61 1.59-.004 2.202-.61.61-1.597.61-2.202.004L26.804 29.01zm-10.426.627c7.323 0 13.26-5.936 13.26-13.26 0-7.32-5.937-13.257-13.26-13.257C9.056 3.12 3.12 9.056 3.12 16.378c0 7.323 5.936 13.26 13.258 13.26z"
+    fill-rule="evenodd" />
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" id="sbx-icon-clear-3" viewBox="0 0 20 20">
+    <path d="M8.114 10L.944 2.83 0 1.885 1.886 0l.943.943L10 8.113l7.17-7.17.944-.943L20 1.886l-.943.943-7.17 7.17 7.17 7.17.943.944L18.114 20l-.943-.943-7.17-7.17-7.17 7.17-.944.943L0 18.114l.943-.943L8.113 10z" fill-rule="evenodd" />
+  </symbol>
+</svg>
+
+<form method="get" action="https://worldofdylan.neocities.org/search.html"   novalidate="novalidate" class="searchbox sbx-google">
+  <div role="search" class="sbx-google__wrapper">
+    <input type="search" name="search" placeholder="Dylan Search" autocomplete="off" required="required" class="sbx-google__input">
+    <button type="submit" title="Submit your search query." class="sbx-google__submit">
+      <svg role="img" aria-label="Search">
+        <use xlink:href="#sbx-icon-search-13"></use>
+      </svg>
+    </button>
+    <button type="reset" title="Clear the search query." class="sbx-google__reset">
+      <svg role="img" aria-label="Reset">
+        <use xlink:href="#sbx-icon-clear-3"></use>
+      </svg>
+    </button>
+  </div>
+</form>
+<script type="text/javascript">
+  document.querySelector('.searchbox [type="reset"]').addEventListener('click', function() {  this.parentNode.querySelector('input').focus();});
+</script>
+<style>
+.sbx-google {
+  display: inline-block;
+  position: relative;
+  width: 750px;
+  height: 41px;
+  white-space: nowrap;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+.sbx-google__wrapper {
+  width: 100%;
+  height: 100%;
+}
+
+.sbx-google__input {
+  display: inline-block;
+  -webkit-transition: box-shadow .4s ease, background .4s ease;
+  transition: box-shadow .4s ease, background .4s ease;
+  border: 0;
+  border-radius: 4px;
+  box-shadow: inset 0 0 0 1px #CCCCCC;
+  background: #FFFFFF;
+  padding: 0;
+  padding-right: 77px;
+  padding-left: 11px;
+  width: 100%;
+  height: 100%;
+  vertical-align: middle;
+  white-space: normal;
+  font-size: inherit;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+}
+
+.sbx-google__input::-webkit-search-decoration, .sbx-google__input::-webkit-search-cancel-button, .sbx-google__input::-webkit-search-results-button, .sbx-google__input::-webkit-search-results-decoration {
+  display: none;
+}
+
+.sbx-google__input:hover {
+  box-shadow: inset 0 0 0 1px #b3b3b3;
+}
+
+.sbx-google__input:focus, .sbx-google__input:active {
+  outline: 0;
+  box-shadow: inset 0 0 0 1px #3E82F7;
+  background: #FFFFFF;
+}
+
+.sbx-google__input::-webkit-input-placeholder {
+  color: #AAAAAA;
+}
+
+.sbx-google__input::-moz-placeholder {
+  color: #AAAAAA;
+}
+
+.sbx-google__input:-ms-input-placeholder {
+  color: #AAAAAA;
+}
+
+.sbx-google__input::placeholder {
+  color: #AAAAAA;
+}
+
+.sbx-google__submit {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: inherit;
+  margin: 0;
+  border: 0;
+  border-radius: 0 3px 3px 0;
+  background-color: #3e82f7;
+  padding: 0;
+  width: 49px;
+  height: 100%;
+  vertical-align: middle;
+  text-align: center;
+  font-size: inherit;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.sbx-google__submit::before {
+  display: inline-block;
+  margin-right: -4px;
+  height: 100%;
+  vertical-align: middle;
+  content: '';
+}
+
+.sbx-google__submit:hover, .sbx-google__submit:active {
+  cursor: pointer;
+}
+
+.sbx-google__submit:focus {
+  outline: 0;
+}
+
+.sbx-google__submit svg {
+  width: 21px;
+  height: 21px;
+  vertical-align: middle;
+  fill: #FFFFFF;
+}
+
+.sbx-google__reset {
+  display: none;
+  position: absolute;
+  top: 10px;
+  right: 56px;
+  margin: 0;
+  border: 0;
+  background: none;
+  cursor: pointer;
+  padding: 0;
+  font-size: inherit;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  fill: rgba(0, 0, 0, 0.5);
+}
+
+.sbx-google__reset:focus {
+  outline: 0;
+}
+
+.sbx-google__reset svg {
+  display: block;
+  margin: 4px;
+  width: 13px;
+  height: 13px;
+}
+
+.sbx-google__input:valid ~ .sbx-google__reset {
+  display: block;
+  -webkit-animation-name: sbx-reset-in;
+          animation-name: sbx-reset-in;
+  -webkit-animation-duration: .15s;
+          animation-duration: .15s;
+}
+
+@-webkit-keyframes sbx-reset-in {
+  0% {
+    -webkit-transform: translate3d(-20%, 0, 0);
+            transform: translate3d(-20%, 0, 0);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: none;
+            transform: none;
+    opacity: 1;
+  }
+}
+
+@keyframes sbx-reset-in {
+  0% {
+    -webkit-transform: translate3d(-20%, 0, 0);
+            transform: translate3d(-20%, 0, 0);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: none;
+            transform: none;
+    opacity: 1;
+  }
+}
+</style>
+        <div>
+            <br>
+            <center>
+<a href="https://sites.google.com/view/dylansearch/lucky-button" class="action-button shadow animate blue">Dylan is Feeling Lucky</a>
+<style>
+@font-face {
+  font-family: 'Product Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans'), local('OpenSans'), url(https://fonts.gstatic.com/s/productsans/v5/HYvgU2fE2nRJvZ5JFAumwegdm0LZdjqr5-oayXSOefg.woff2) format('woff2');
+}
+</style>
+<style>
+.animate
+{
+ transition: all 0.1s;
+ -webkit-transition: all 0.1s;
+}
+.action-button
+{
+ position: relative;
+ padding: 10px 40px;
+        margin: 0px 10px 10px 0px;
+ border-radius: 3px;
+ font-family: 'Product Sans', sans-serif;
+ font-size: 18px;
+ color: #FFF;
+ text-decoration: none; }
+.blue
+{
+ background-color: #3498db;
+ border-bottom: 5px solid #2980B9;
+ text-shadow: 0px -2px #2980B9;
+}
+.action-button:active
+{
+ transform: translate(0px,5px);
+  -webkit-transform: translate(0px,5px);
+ border-bottom: 1px solid;
+}
+</style>
+<a href="https://sites.google.com/view/dylansearch/about-us" class="action-button shadow animate red">About Us</a>
+<style>
+.animate
+{
+ transition: all 0.1s;
+ -webkit-transition: all 0.1s;
+}
+.action-button
+{
+ position: relative;
+ padding: 10px 40px;
+        margin: 0px 10px 10px 0px;
+ border-radius: 3px;
+ font-family: 'Product Sans', sans-serif;
+ font-size: 18px;
+ color: #FFF;
+ text-decoration: none; }
+.red
+{
+ background-color: #e74c3c;
+ border-bottom: 5px solid #c0392b;
+ text-shadow: 0px -2px #c0392b;
+}
+.action-button:active
+{
+ transform: translate(0px,5px);
+  -webkit-transform: translate(0px,5px);
+ border-bottom: 1px solid;
+}
+</style>
+<a href="https://sites.google.com/view/dylansearch/past-button" class="action-button shadow animate green">I'm Feeling Nostalgic</a>
+                <br>
+<style>
+.animate
+{
+ transition: all 0.1s;
+ -webkit-transition: all 0.1s;
+}
+.action-button
+{
+ position: relative;
+ padding: 10px 40px;
+        margin: 0px 10px 10px 0px;
+ border-radius: 3px;
+ font-family: 'Product Sans', sans-serif;
+ font-size: 18px;
+ color: #FFF;
+ text-decoration: none; }
+.green
+{
+ background-color: #2ecc71;
+ border-bottom: 5px solid #27ae60;
+ text-shadow: 0px -2px #27ae60;
+}
+.action-button:active
+{
+ transform: translate(0px,5px);
+  -webkit-transform: translate(0px,5px);
+ border-bottom: 1px solid;
+}
+</style>
+                <div>
+                    <div>
+                        <div>
+                <center>
+<button class="action-button shadow animate seagreen">Scholar Search</button>
+<a href="https://sites.google.com/view/dylansearch/previous-wallpaper" class="action-button shadow animate yellow">Previous Wallpaper</a>
+<style>
+@font-face {
+  font-family: 'Product Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans'), local('OpenSans'), url(https://fonts.gstatic.com/s/productsans/v5/HYvgU2fE2nRJvZ5JFAumwegdm0LZdjqr5-oayXSOefg.woff2) format('woff2');
+}
+</style>
+<style>
+.animate
+{
+ transition: all 0.1s;
+ -webkit-transition: all 0.1s;
+}
+.action-button
+{
+ position: relative;
+ padding: 10px 40px;
+        margin: 0px 10px 10px 0px;
+ border-radius: 3px;
+ font-family: 'Product Sans', sans-serif;
+ font-size: 18px;
+ color: #FFF;
+ text-decoration: none; }
+.yellow
+{
+ background-color: #f1c40f;
+ border-bottom: 5px solid #f39c12;
+ text-shadow: 0px -2px #f39c12;
+}
+.action-button:active
+{
+ transform: translate(0px,5px);
+  -webkit-transform: translate(0px,5px);
+ border-bottom: 1px solid;
+}
+</style>
+<a href="https://sites.google.com/view/dylansearch/science" class="action-button shadow animate purple">Science Search</a>
+<style>
+.animate
+{
+ transition: all 0.1s;
+ -webkit-transition: all 0.1s;
+}
+.action-button
+{
+ position: relative;
+ padding: 10px 40px;
+        margin: 0px 10px 10px 0px;
+ border-radius: 3px;
+ font-family: 'Product Sans', sans-serif;
+ font-size: 18px;
+ color: #FFF;
+ text-decoration: none; }
+.purple
+{
+ background-color: #9600ff;
+ border-bottom: 5px solid #5d009f;
+ text-shadow: 0px -2px #5d009f;
+}
+.action-button:active
+{
+ transform: translate(0px,5px);
+  -webkit-transform: translate(0px,5px);
+ border-bottom: 1px solid;
+}
+</style>
+<style>
+.animate
+{
+ transition: all 0.1s;
+ -webkit-transition: all 0.1s;
+}
+.action-button
+{
+ position: relative;
+ padding: 10px 40px;
+        margin: 0px 10px 10px 0px;
+ border-radius: 3px;
+ font-family: 'Product Sans', sans-serif;
+ font-size: 18px;
+ color: #FFF;
+ text-decoration: none; }
+.seagreen
+{
+ background-color: #00ffb8;
+ border-bottom: 5px solid #00ce95;
+ text-shadow: 0px -2px #00ce95;
+}
+.action-button:active
+{
+ transform: translate(0px,5px);
+  -webkit-transform: translate(0px,5px);
+ border-bottom: 1px solid;
+}
+</style>
+                    <div>
+<style>
+@font-face {
+  font-family: 'Product Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans'), local('OpenSans'), url(https://fonts.gstatic.com/s/productsans/v5/HYvgU2fE2nRJvZ5JFAumwegdm0LZdjqr5-oayXSOefg.woff2) format('woff2');
+}
+
+
+
+body {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	height: 100vh;
+	align-items: center;
+	font-family: Product Sans;
+	padding: 20px;
+}
+
+$blue : #4285F4;
+$red : #EA4335;
+$yellow : #FBBC05;
+$green : #34A853;
+
+
+span {
+	display: inline-block;
+	padding: 20px;
+	text-align: center;
+	
+	&:nth-child(7n+1) { color: $blue; }
+	&:nth-child(7n+2) { color: $red; }
+	&:nth-child(7n+3) { color: $yellow; }
+	&:nth-child(7n+4) { color: $blue; }
+	&:nth-child(7n+5) { color: $green; }
+	&:nth-child(7n+6) { color: $red; }
+	&:nth-child(7n+7) { color: $yellow; }
+}
+</style>
+                        <br>
+                        <span><h3><mark>Dylan Search rules! Google is for fools!</mark></h3><div><mark>Dylan Search is a fast and efficient search engine. It is faster than Google and delivers quality results. To begin your search, type something in the box above and hit enter! If everyone uses Dylan Search, we could get at least 100 searches per day! Our current record is 113 on the 7th of September 2018!</mark></span>
+<div>
+<div>
+<br>
+    <span><mark>Want to test our systems? Well, here is your IP address. He He.</mark></span><div>
+<script type="text/javascript"><!--
+ip_width = 136;
+ip_color_bg = "ffff00";
+ip_color_text = "000000";
+//--></script>
+<script type="text/javascript"
+src="https://ipinfo.info/ip/js_b.php">
+</script>
+<br>
+<div>
